@@ -221,7 +221,7 @@
                 </executions>
                 <configuration>
                     <port>8080</port>
-                    <path>/seyren</path>
+                    <path>/</path>
                 </configuration>
             </plugin>
         </plugins>
