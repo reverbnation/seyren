@@ -9,7 +9,8 @@ module.exports = function (config) {
         ],
         files: [
             'test/e2e/**/*.js',
-            '../../seyren-web/src/main/webapp/js/lib/jquery-1.7.2.min.js'
+            '../../seyren-web/src/main/webapp/js/lib/jquery-1.12.4.min.js'
+            '../../seyren-web/src/main/webapp/js/lib/jquery-migrate-1.4.1.min.js'
         ],
         proxies: {
             '/': 'http://localhost:8080/seyren/'

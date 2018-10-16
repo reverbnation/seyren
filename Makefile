@@ -1,7 +1,7 @@
 .PHONY:	build push
 
 PREFIX=quay.io/reverbnation
-TAG = 1.5.3
+TAG = 1.5.4
 
 build:
 	docker build --pull -t $(PREFIX)/seyren:$(TAG) .
